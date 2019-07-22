@@ -9,6 +9,20 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".startActivityForResultTest.SecondActivity">
+        </activity>
+        <activity android:name=".startActivityForResultTest.FirstActivity">
+        </activity>
+        <activity android:name=".aidl.AIDLActivity">
+        </activity>
+
+        <service
+                android:name=".aidl.RemoteService"
+                android:enabled="true"
+                android:exported="true"
+                android:process=":remote">
+        </service>
+
         <activity android:name=".handler.HandlerActivity">
         </activity>
         <activity android:name=".MainActivity">

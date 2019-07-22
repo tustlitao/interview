@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">interview</string>
+    <string name="new_task">NEW_TASK</string>
 </resources>
